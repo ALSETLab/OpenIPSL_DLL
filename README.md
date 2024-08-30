@@ -9,10 +9,12 @@
 1. Open OpenIPSL_GFM_DLL.mo or OpenIPSL_SCRX9_DLL.mo in Dymola
 2. Go to Tests.test
 3. Run the simulation
-   
-The OpenIPSL or Open-Instance Power System Library is a library of power system component models written in the [Modelica](http://modelica.org) language that can be used for power system dynamic analysis, such as phasor time-domain simulations.
 
-The OpenIPSL is currently developed and maintained by Prof. [Luigi Vanfretti's](https://github.com/lvanfretti) research group [ALSETLab](https://github.com/ALSETLab) at [Rensselaer Polytechnic Institute](http://rpi.edu), Troy, NY, collaborators and friends, such as [Dietmar Winkler](https://github.com/dietmarw) and [FOSSEE](https://om.fossee.in/fellowship2018) (contributions are welcome!).
+## Recompile DLL files 
+If you need to recompile the DLL file, please see the below tutorial: 
+https://docs.google.com/presentation/d/1OyT6ptZmyA3O5hEf5ezsVRYsU4Ooz-DVWGg3mam_RDM/edit?usp=sharing
+   
+
 
 ## Scope
 The OpenIPSL is developed to be used for research and education (therefore frequent release times may be available), with maximum compatibility with [OpenModelica](https://openmodelica.org/) (to provide a free/libre and cost-free alternative for power system dynamic simulation), to provide as many as possible typical "test networks" for use in research and teaching, and to be developed in such way that the library can efficiently be used for power system simulation within Modelica-based workflows (i.e., helping to give reference power system models for development and testing of Modelica back-end compilers) when faced with power system simulation challenges.
